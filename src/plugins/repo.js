@@ -10,7 +10,7 @@ const searchRepo = async (m, Matrix) => {
   const validCommands = ['repo', 'sc', 'script'];
 
   if (validCommands.includes(cmd)) {
-    const repoUrl = `https://api.github.com/repos/cobrs11/HANSAMAL-MD`;
+    const repoUrl = `https://github.com/HerokuZR/Queen_Azura-MD`;
     
     await handleRepoCommand(m, Matrix, repoUrl);
   }
@@ -57,7 +57,7 @@ const handleRepoCommand = async (m, Matrix, repoUrl) => {
             header: proto.Message.InteractiveMessage.Header.create({
               ...(await prepareWAMessageMedia({
                 image: {
-                  url: 'https://telegra.ph/file/cad7038fe82e47f79c609.jpg',
+                  url: 'https://i.ibb.co/SR76mBh/Pu3-ZYHBS5139.jpg',
                 },
               }, { upload: Matrix.waUploadToServer })),
               title: '',
@@ -71,21 +71,21 @@ const handleRepoCommand = async (m, Matrix, repoUrl) => {
                   name: 'cta_url',
                   buttonParamsJson: JSON.stringify({
                     display_text: 'Contact Owner',
-                    url: 'https://wa.me/+94711262551?text=HI_HANSAMAL_BOT_OWNER',
+                    url: 'https://wa.me/+94785713391?text=HI_Azur_BOT_OWNER',
                   }),
                 },
                 {
                   name: 'cta_url',
                   buttonParamsJson: JSON.stringify({
                     display_text: 'Click Here To Fork',
-                    url: 'https://github.com/cobrs11/HANSAMAL-MD/fork',
+                    url: 'https://github.com/HerokuZR/Queen_Azura-MD/fork',
                   }),
                 },
                 {
                   name: 'cta_url',
                   buttonParamsJson: JSON.stringify({
                     display_text: 'Join Our Community',
-                    url: 'https://www.whatsapp.com/channel/0029VajrLTH30LKXN5O5Zj04',
+                    url: 'no',
                   }),
                 },
               ],
