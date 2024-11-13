@@ -1,17 +1,14 @@
 
  </p>
     <p align="center">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=EB+Garamond&weight=800&size=28&duration=4000&pause=1000&random=false&width=435&lines=WELCOME+TO+Queen_Azura-MD;MULTI-DEVICE+WHATSAPP+BOT;DEVELOPED+BY+DILISHA" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=EB+Garamond&weight=800&size=28&duration=4000&pause=1000&random=false&width=435&lines=WELCOME+TO+Queen_ahinsa-MD;MULTI-DEVICE+WHATSAPP+BOT;DEVELOPED+BY+DILISHA" alt="Typing SVG" /></a>
 
 
 
  <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
 <h1>.              🌟OFFICIAL🌟.          </h1>
-<<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-<h1 align="center">⭕Queen_Azura-MD⭕<br></h1>
-<p align="center">
-<img src="https://telegra.ph/file/cad7038fe82e47f79c609.jpg" />
-<<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+
+<<a><img src='https://i.ibb.co/SR76mBh/Pu3-ZYHBS5139.jpg'/></a>
 </p>
 
 <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
@@ -22,7 +19,7 @@
 
 <div align="center">
  
-  <h1>.            👇 DEPLOY NOW 👇       </h1>
+  <h1>            👇 DEPLOY NOW 👇       </h1>
 </div>
 
 <br>
@@ -53,7 +50,7 @@
 <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
 
 <p align="center">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=33&pause=1000&color=5513F7&width=435&lines= King_Dilisha-MD+Whatsapp+Bot" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=33&pause=1000&color=5513F7&width=435&lines= King_Dilisha-MD-V2+Whatsapp+Bot" alt="Typing SVG" /></a>
 </p>
 <p align="center">
 
@@ -104,4 +101,3 @@ jobs:
 <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
 <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
 <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
-
