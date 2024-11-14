@@ -92,7 +92,7 @@ let mode = ethix.public ? 'public' : 'private';
               text: `╭─────────────━┈⊷
 │🤖 ʙᴏᴛ ɴᴀᴍᴇ: *Queen_Azura-MD*
 │📍 ᴠᴇʀꜱɪᴏɴ: 3.0.2
-│👨‍💻 ᴏᴡɴᴇʀ : *IMALKA*      
+│👨‍💻 ᴏᴡɴᴇʀ : *Dilisha*      
 │👤 ɴᴜᴍʙᴇʀ: 94711262551
 │📡 ᴘʟᴀᴛғᴏʀᴍ: *${os.platform()}*
 │🛡 ᴍᴏᴅᴇ: *${mode}*
@@ -324,7 +324,7 @@ let mode = ethix.public ? 'public' : 'private';
             message: {
                 contactMessage: {
                     displayName: `Queen_Azura-MD`,
-                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'HANSAMAL-MD'\nitem1.TEL;waid=${
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'Queen_Azura-MD'\nitem1.TEL;waid=${
                         m.sender.split("@")[0]
                     }:${
                         m.sender.split("@")[0]
