@@ -90,7 +90,7 @@ let mode = ethix.public ? 'public' : 'private';
           interactiveMessage: proto.Message.InteractiveMessage.create({
             body: proto.Message.InteractiveMessage.Body.create({
               text: `╭─────────────━┈⊷
-│🤖 ʙᴏᴛ ɴᴀᴍᴇ: *HANSAMAL-MD*
+│🤖 ʙᴏᴛ ɴᴀᴍᴇ: *Queen_Azura-MD*
 │📍 ᴠᴇʀꜱɪᴏɴ: 3.0.2
 │👨‍💻 ᴏᴡɴᴇʀ : *IMALKA*      
 │👤 ɴᴜᴍʙᴇʀ: 94711262551
@@ -100,7 +100,7 @@ let mode = ethix.public ? 'public' : 'private';
 ╰─────────────━┈⊷ `
             }),
             footer: proto.Message.InteractiveMessage.Footer.create({
-              text: "© Powered By HANSAMAL-MD"
+              text: "© Powered By Queen_Azura-MD"
             }),
             header: proto.Message.InteractiveMessage.Header.create({
                 ...(await prepareWAMessageMedia({ image : fs.readFileSync('./src/HANSAMAL.jpg')}, { upload: Matrix.waUploadToServer})), 
@@ -116,67 +116,67 @@ let mode = ethix.public ? 'public' : 'private';
                   "buttonParamsJson": `{"title":"ᴛᴀᴘ ʜᴇʀᴇ",
                  "sections":
                    [{
-                    "title":"ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ ᴍᴇɴᴜ",
+                    "title":"Queen_Azura-MD ᴍᴇɴᴜ",
                     "highlight_label":"ᴀʟʟ ᴍᴇɴᴜ",
                     "rows":[
                       {
                        "header":"",
                        "title":"ᴀʟʟ ᴍᴇɴᴜ",
-                       "description":"ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ",
+                       "description":"Queen_Azura-MD",
                        "id":"View All Menu"
                       },
                       {
                         "header":"",
                         "title":"ᴅᴏᴡɴʟᴏᴀᴅ ᴍᴇɴᴜ",
-                        "description":"ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ",
+                        "description":"Queen_Azura-MD",
                         "id":"Downloader Menu"
                       },
                       {
                         "header":"",
                         "title":"ɢʀᴏᴜᴘ ᴍᴇɴᴜ",
-                        "description":"ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ",
+                        "description":"Queen_Azura-MD",
                         "id":"Group Menu"
                       },
                       {
                         "header":"",
                         "title":"ᴛᴏᴏʟ ᴍᴇɴᴜ",
-                        "description":"ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ",
+                        "description":"Queen_Azura-MD",
                         "id":"Tool Menu"
                       },
                       {
                         "header":"",
                         "title":"ᴍᴀɪɴ ᴍᴇɴᴜ",
-                        "description":"ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ",
+                        "description":"Queen_Azura-MD",
                         "id":"Main Menu"
                       },
                      {
                         "header":"",
                         "title":"ᴏᴡɴᴇʀ ᴍᴇɴᴜ",
-                        "description":"ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ",
+                        "description":"Queen_Azura-MD,
                         "id":"Owner Menu"
                       },
                       {
                         "header":"",
                         "title":"ᴀɪ ᴍᴇɴᴜ",
-                        "description":"ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ",
+                        "description":"Queen_Azura-MD",
                         "id":"Ai Menu"
                       },
                       {
                         "header":"",
                         "title":"ꜱᴇᴀʀᴄʜ ᴍᴇɴᴜ",
-                        "description":"ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ",
+                        "description":"Queen_Azura-MD",
                         "id":"Search Menu"
                       },
                       {
                         "header":"",
                         "title":"ꜱᴛᴀʟᴋ ᴍᴇɴᴜ",
-                        "description":"ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ",
+                        "description":"Queen_Azura-MD",
                         "id":"Stalk Menu"
                       },
                       {
                         "header":"",
                         "title":"ᴄᴏɴᴠᴇʀᴛᴇʀ ᴍᴇɴᴜ",
-                        "description":"ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ",
+                        "description":"Queen_Azura-MD",
                         "id":"Converter Menu"
                       }
                     ]}
@@ -190,7 +190,7 @@ let mode = ethix.public ? 'public' : 'private';
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '',
-                  newsletterName: "HANSAMAL-MD",
+                  newsletterName: "Queen_Azura-MD",
                   serverMessageId: 143
                 }
               }
@@ -207,9 +207,9 @@ let mode = ethix.public ? 'public' : 'private';
         const mode = process.env.MODE;
         const str = `hey ${m.pushName} ${pushwish}
 ╭─────────────━┈⊷
-│🤖 ʙᴏᴛ ɴᴀᴍᴇ: *HANSAMAL-MD*
+│🤖 ʙᴏᴛ ɴᴀᴍᴇ: *Queen_Azura-MD*
 │📍 ᴠᴇʀꜱɪᴏɴ: 3.0.2
-│👨‍💻 ᴏᴡɴᴇʀ : *IMALKA*      
+│👨‍💻 ᴏᴡɴᴇʀ : *Dilisha*      
 │👤 ɴᴜᴍʙᴇʀ: 94711262551
 │💻 ᴘʟᴀᴛғᴏʀᴍ: *${os.platform()}*
 │🛡 ᴍᴏᴅᴇ: *${mode}*
@@ -323,7 +323,7 @@ let mode = ethix.public ? 'public' : 'private';
             },
             message: {
                 contactMessage: {
-                    displayName: `HANSAMAL-MD`,
+                    displayName: `Queen_Azura-MD`,
                     vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'HANSAMAL-MD'\nitem1.TEL;waid=${
                         m.sender.split("@")[0]
                     }:${
@@ -333,7 +333,7 @@ let mode = ethix.public ? 'public' : 'private';
             }
         };
        let { key } = await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./src/HANSAMAL.jpg'), 
+  image: fs.readFileSync('./src/Azura.jpg'), 
   caption: str, 
   contextInfo: {
                   mentionedJid: [m.sender], 
@@ -341,7 +341,7 @@ let mode = ethix.public ? 'public' : 'private';
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '',
-                  newsletterName: "HANSAMAL-MD",
+                  newsletterName: "Queen_Azura-MD",
                   serverMessageId: 143
                 }
               }
@@ -372,7 +372,7 @@ let mode = ethix.public ? 'public' : 'private';
 ┃✰ ${prefix}𝚃𝚒𝚔𝚝𝚘𝚔
 ╰━━━━━━━━━━━━━━━⪼`
 await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./src/HANSAMAL.jpg'), 
+  image: fs.readFileSync('./src/Azura.jpg'), 
   caption: str, 
   contextInfo: {
                   mentionedJid: [m.sender], 
@@ -380,7 +380,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '',
-                  newsletterName: "HANSAMAL-MD",
+                  newsletterName: "Queen_Azura-MD",
                   serverMessageId: 143
                 }
               }
@@ -413,7 +413,7 @@ await Matrix.sendMessage(m.from, {
 ╰━━━━━━━━━━━━━━━⪼
      `
      await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./src/HANSAMAL.jpg'), 
+  image: fs.readFileSync('./src/Azura.jpg'), 
   caption: str, 
   contextInfo: {
     mentionedJid: [m.sender], 
@@ -438,7 +438,7 @@ await Matrix.sendMessage(m.from, {
 ┃✰ ${prefix}𝙸𝚗𝚏𝚘𝚋𝚘𝚝
 ╰━━━━━━━━━━━━━━━⪼`
 await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./src/HANSAMAL.jpg'), 
+  image: fs.readFileSync('./src/Azura.jpg'), 
   caption: str, 
   contextInfo: {
                   mentionedJid: [m.sender], 
@@ -446,7 +446,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '',
-                  newsletterName: "HANSAMAL-MD",
+                  newsletterName: "Queen_Azura-MD",
                   serverMessageId: 143
                 }
               }
@@ -477,7 +477,7 @@ await Matrix.sendMessage(m.from, {
 ┃✰ ${prefix}𝚊𝚞𝚝𝚘𝚜𝚟𝚒𝚎𝚠
 ╰━━━━━━━━━━━━━━━⪼`
 await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./src/HANSAMAL.jpg'), 
+  image: fs.readFileSync('./src/Azura.jpg'), 
   caption: str, 
   contextInfo: {
                   mentionedJid: [m.sender], 
@@ -485,7 +485,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '',
-                  newsletterName: "HANSAMAL-MD",
+                  newsletterName: "Queen_Azura-MD",
                   serverMessageId: 143
                 }
               }
@@ -513,7 +513,7 @@ await Matrix.sendMessage(m.from, {
 ┃✰ ${prefix}𝙻𝚢𝚛𝚒𝚌𝚜
 ╰━━━━━━━━━━━━━━━⪼`
 await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./src/HANSAMAL.jpg'), 
+  image: fs.readFileSync('./src/Azura.jpg'), 
   caption: str, 
   contextInfo: {
                   mentionedJid: [m.sender], 
@@ -521,7 +521,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '',
-                  newsletterName: "HANSAMAL-MD",
+                  newsletterName: "Queen_Azura-MD",
                   serverMessageId: 143
                 }
               }
@@ -541,7 +541,7 @@ await Matrix.sendMessage(m.from, {
 ┃✰ ${prefix}𝙶𝚒𝚝𝚑𝚞𝚋𝚂𝚝𝚊𝚕𝚔
 ╰━━━━━━━━━━━━━━━⪼`
 await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./src/HANSAMAL.jpg'), 
+  image: fs.readFileSync('./src/Azura.jpg'), 
   caption: str, 
   contextInfo: {
                   mentionedJid: [m.sender], 
@@ -549,7 +549,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '',
-                  newsletterName: "HANSAMAL-MD",
+                  newsletterName: "Queen_Azura-MD",
                   serverMessageId: 143
                 }
               }
@@ -572,7 +572,7 @@ await Matrix.sendMessage(m.from, {
 ┃✰ ${prefix}𝚃𝚝𝚜
 ╰━━━━━━━━━━━━━━━⪼`
 await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./src/HANSAMAL.jpg'), 
+  image: fs.readFileSync('./src/Azura.jpg'), 
   caption: str, 
   contextInfo: {
                   mentionedJid: [m.sender], 
@@ -580,7 +580,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '',
-                  newsletterName: "HANSAMAL-MD",
+                  newsletterName: "Queen_Azura-MD",
                   serverMessageId: 143
                 }
               }
@@ -612,7 +612,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '',
-                  newsletterName: "HANSAMAL-MD",
+                  newsletterName: "Queen_Azura-MD",
                   serverMessageId: 143
                 }
               }
@@ -637,7 +637,7 @@ await Matrix.sendMessage(m.from, {
 ╰━━━━━━━━━━━━━━━⪼
      `
      await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./src/HANSAMAL.jpg'), 
+  image: fs.readFileSync('./src/Azura.jpg'), 
   caption: str, 
   contextInfo: {
                   mentionedJid: [m.sender], 
