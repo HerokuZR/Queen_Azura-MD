@@ -4,10 +4,22 @@ import fs from 'fs/promises';
 import config from '../../config.cjs';
 import { smsg } from '../../lib/myfunc.cjs';
 import { handleAntilink } from './antilink.js';
-import { fileURLToPath } from 'url';
 
-const __filename = fileURLToPath(import.meta.url);
+
+const userCommandCounts = new Map();
+
+const __filename = new URL(import.meta.url).pathname;
 const __dirname = path.dirname(__filename);
+
+const getMessage = async (key, store) => {
+    if (store) {
+        const msg = await store.loadMessage(key.remoteJid, key.id);
+        return msg.message || undefined;
+    }
+    return {
+        conversation: "Hai Im sock botwa"
+    };
+};
 
 // Function to get group admins
 export const getGroupAdmins = (participants) => {
@@ -20,7 +32,7 @@ export const getGroupAdmins = (participants) => {
     return admins || [];
 };
 
-const Handler = async (chatUpdate, sock, logger) => {
+const Handler = async (chatUpdate, sock, logger, store) => {
     try {
         if (chatUpdate.type !== 'notify') return;
 
@@ -32,6 +44,7 @@ const Handler = async (chatUpdate, sock, logger) => {
         const botId = sock.user.id.split(':')[0] + '@s.whatsapp.net';
         const isBotAdmins = m.isGroup ? groupAdmins.includes(botId) : false;
         const isAdmins = m.isGroup ? groupAdmins.includes(m.sender) : false;
+
 
         const PREFIX = /^[\\/!#.]/;
         const isCOMMAND = (body) => PREFIX.test(body);
@@ -60,27 +73,18 @@ const Handler = async (chatUpdate, sock, logger) => {
             }
         }
 
-        await handleAntilink(m, sock, logger, isBotAdmins, isAdmins, isCreator);
+await handleAntilink(m, sock, logger, isBotAdmins, isAdmins, isCreator); 
 
         const { isGroup, type, sender, from, body } = m;
         console.log(m);
 
-        const pluginDir = path.join(__dirname, '..', 'plugin');
-        const pluginFiles = await fs.readdir(pluginDir);
+        const pluginFiles = await fs.readdir(path.join(__dirname, '..', 'plugin'));
 
         for (const file of pluginFiles) {
             if (file.endsWith('.js')) {
-                const pluginPath = path.join(pluginDir, file);
-               // console.log(`Attempting to load plugin: ${pluginPath}`);
-
-                try {
-                    const pluginModule = await import(`file://${pluginPath}`);
-                    const loadPlugins = pluginModule.default;
-                    await loadPlugins(m, sock);
-                   // console.log(`Successfully loaded plugin: ${pluginPath}`);
-                } catch (err) {
-                    console.error(`Failed to load plugin: ${pluginPath}`, err);
-                }
+                const pluginModule = await import(path.join(__dirname, '..', 'plugin', file));
+                const loadPlugins = pluginModule.default;
+                await loadPlugins(m, sock);
             }
         }
     } catch (e) {
